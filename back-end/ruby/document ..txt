@@ -1,0 +1,102 @@
+﻿INHERITANCE:
+           Inheritance is the mechanisam where child class acquires the properties of parent class..
+
+EXAMPLE:
+
+class Mamal
+Def breath
+puts “inheal and exheal”
+end
+end
+class Man<Mamal
+Def speak
+puts “hello”
+end 
+end
+a=Man.new
+a.breath
+a.speak
+
+
+
+
+
+
+
+
+ENCAPSULATION:
+             
+Encapsulation is the packing of data and functions into a single component.
+
+
+
+CLASS A
+  private
+  def implementation
+    puts 'private A'
+  end
+end
+
+class B < A
+  def api
+    implementation
+  end
+end
+
+
+
+
+
+
+
+
+
+
+POLYMORPHISM:
+polymorphism is nothing but single object with many forms...
+
+
+class Document
+	def initialize
+	end
+	def print
+		raise NotImplementedError, "print method"
+	end
+end
+class HtmlDocument
+	def print
+		puts"Html document"
+	end
+end
+class XmlDocument
+	def print
+		puts"XML document"
+	end
+end
+c=HtmlDocument.new
+c.print
+c=XmlDocument.new
+c.print
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

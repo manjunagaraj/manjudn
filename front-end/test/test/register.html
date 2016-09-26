@@ -1,46 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
-<body bgcolor="pink";>
-<center><h1 style="color:blue";>TO REGISTER FUL-FIL THE FOLLOWING..<div align="center";></div></h1></center>
+<body>
+<div style="background-color:pink">
 
-<form action="action_page.php">
-<center>
-  First name:<br>
-  <input type="text" name="firstname">
-  <br><br>
-  Last name:<br>
-  <input type="text" name="lastname" >
-  <br><br>
+           <h1> TO REGISTER FULL-FIL THE FOLLOWING....</h1>
 
-  Email:<br>
-  <input type="text" name="firstname">
-  <br><br>
-  Pasword:<br>
-  <input type="text" name="firstname">
-  <br><br>
-  Confirm password:<br>
-  <input type="text" name="firstname">
-  <br><br>
-  Phone number:<br>
-  <input type="text" name="firstname">
-  <br><br>
-  <input type="submit" value="Submit">
+ <div data-role="main" class="ui-content">
+    <form method="post" action="demoform.asp">
+      <div class="ui-field-contain">
+        <label for="fname">First name:</label><br><br>
 
-</form> 
-</center>
+        <input type="text" ><br><br>
+        <label for="lname">Last name:</label><br><br>
+        <input type="text" name="lname" id="lname"><br><br>
+        <label for="email">Email:</label><br><br>
+        <input type="text" name="email" id="email"><br><br>
+        <label for="password">password:</label><br><br>
+        <input type="text" name="password" id="password"><br><br>
+        <label for="email">confirm password:</label><br><br>
+        <input type="text" name="email" id="email"><br><br>
+        <label for="email">phone number</label><br><br>
+        <input type="text" name="email" id="email"><br><br>
 
 
+      </div>
+      <input type="submit" data-inline="true" value="Submit">
+    </form>
 
-
-
-
-
-
-
-
-
+  
+  </div>
+<!-- </div>
+ -->
+ </div>
 </body>
 </html>
