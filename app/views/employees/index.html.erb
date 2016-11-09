@@ -1,0 +1,27 @@
+<h1>Listing employee</h1>
+ 
+<table>
+  <tr>
+    <th>name</th>
+    <th>age</th>
+    <th>designation</th>
+     <th>company_id</th>
+  </tr>
+ 
+  <% @employees.each do |employee| %>
+    <tr>
+      <td><%= employee.name %></td>
+      <td><%= employee.age %></td>
+      <td><%= employee.designation %></td>
+
+       <td><%= employee.company_id %></td>
+
+
+      <!-- these tow lines are included whenever we want to perfoms a destroy operation -->
+      
+      
+      </tr>
+
+      
+  <% end %>
+</table>

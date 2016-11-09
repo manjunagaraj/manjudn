@@ -1,0 +1,28 @@
+<%= form_for :employee do |f| %>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= f.label :age %><br>
+    <%= f.text_area :age %>
+  </p>
+
+
+  <p>
+    <%= f.label :designation %><br>
+    <%= f.text_area :designation %>
+  </p>
+ 
+
+
+
+ <p>
+    <%= f.label :company_id %><br>
+    <%= f.text_area :company_id %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
